@@ -80,7 +80,7 @@ app.post('/getSecret', function(req, res, next) {
     secondNumber = parseInt(secondNumber);
 
     res.json({
-        secret:15462452, //firstNumber+secondNumber
+        secret:firstNumber + secondNumber, //firstNumber+secondNumber
     });
 });
 
