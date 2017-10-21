@@ -11,6 +11,8 @@
   "dependencies": {
     "express": "*",
     "twilio": "*",
-    "body-parser": "*"
+    "body-parser": "*",
+    "underscore": "*",
+    "mongoose": "*"
   }
 }
